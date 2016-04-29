@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'Nirmala';
+    src: url('../fonts/Nirmala.ttf') format('truetype'),
+    url('../fonts/NirmalaB.ttf') format('truetype'),
+    url('../fonts/NirmalaS.ttf') format('truetype');
+}
+body{
+	font-family: 'Nirmala';
+}
+.bg{
+	background-image: url("../images/traffic.jpg");
+	/*position: relative;*/
+	background-size:cover;
+}
+
+/*TOP Green bar*/
+
+
+/*TOP Details Start*/
+
+.top-green{
+	background-color: #418b1c;
+	padding:20px 0px 20px 40px;
+	width: 100%;
+	float: left;
+	background-size: cover;
+	margin-bottom: 490px;
+}
+.brand{
+	width: 56px;
+	height: 56px;
+	margin-top: -12px;
+}
+.top-green h1.thirty-six{
+	display: inline;
+	color:white;
+}
+/*Top Green bar END*/
+.top-details{
+	background-color: #f0b56e;
+	padding-top: 50px;
+}
+.top-details h1.fourty-eight{
+	font-size:48px;
+	font-weight: bold;
+	margin-top:0;
+	color:white;
+}
+.top-details h1.fourty-eight:nth-child(1){
+	/*border-bottom: 1px solid white;*/
+	/*left:50px;*/
+}
+.top-details h1.sixty{
+	font-size:60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin:0;
+	font-family: 'Nirmala';
+	color:white;
+	margin-bottom: 35px;
+}
+.top-details .custom-free-app{
+	padding: 5px 100px;
+	border-radius: 50px;
+	background-color:white;
+	font-size: 52px;
+	margin:0;
+	color:#f0b56e;
+	/*line-height: 1;*/
+	border:none;
+	/*padding-bottom: 5px;*/
+}
+h1.free-app{
+	font-size: 52px;
+	margin:0;
+	color:#f0b56e;
+	padding-bottom: 5px;
+}
+.download-apps{
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+.top-details .download-apps button{
+	border-radius: 50px;
+	padding: 10px 40px;
+	border:none;
+	font-size:24px;
+	color:white;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin:0;
+}
+button.iphone{
+	background-color: #55c659;
+}
+button.android{
+	background-color: #4caf4f;
+}
+/*TOP Details END ---- Header End*/
+
+/*App Awards start*/
+
+
+.app-award{
+	background-image: url("../images/trophy.png");
+	background-size: cover;
+	margin-bottom: 50px;
+}
+.badge-img{
+	margin-top: 140px;
+}
+h2.fifty{
+	font-size: 50px;
+	background-color:#4caf50;
+	text-transform: uppercase;
+	color:white;
+  font-family: 'Nirmala';
+}
+h2.one34{
+	font-size:134px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>HAPPY USERS<<<<<<<<<<<<<<<<<<<<*/
+.happy-users{
+	margin-top: 100PX;
+	margin-bottom: 100px;
+}
+.happy-users-text{
+	margin-bottom: 100px;
+}
+h2.eighty-five{
+	font-size: 85px;
+  	font-family: 'Nirmala';
+  	background: #4caf50;
+  	color: white;
+  	text-transform: uppercase;
+  	padding:35px;
+  	display: inline;
+}
+h2.eighty-five-users{
+	margin-left: 60px;
+	font-size: 85px;
+  	font-family: 'Nirmala';
+  	color:#acacac;
+  	text-transform: uppercase;
+  	display: inline;
+}
+.users-profiles img{
+	display: block;
+	max-width: 150px;
+	margin-bottom: 45px;
+}
+h3.twenty-four{
+	font-size: 24px;
+  	font-family: 'Nirmala';
+	color:#696969;
+	text-transform: uppercase;
+}
+.user-profiles .fa-star{
+	margin-right: 20px;
+	color:#4caf50;
+
+}
+.user-profiles .icons {
+    margin-left: 12px;
+    margin-bottom: 15px;
+}
+h3.twenty-three{
+	font-size: 22.28px;
+	margin:0;
+	color:#696969;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.twenty-three .fa-quote-left, .twenty-three .fa-quote-right{
+	font-size: 10px;
+}
+.twenty-three.italic{
+	font-weight: 500;
+}
+.border-green{
+	border-bottom:1px solid #50944b;
+}
+/*App Awards End*/
+/*>>>>>>>>>>>>>>>>>>> DOWNLOAD NOW START <<<<<<<<<<<<<<<<<*/
+section.download-now img{
+	/*position: absolute;
+	top:0;
+	left:0;*/
+	max-width: 600px;
+}
+.download-now h1.sixty-six{
+	    font-size: 54px;
+    color: #55c659;
+    margin-top: 250px;
+    margin-bottom: 95px;
+    font-family: 'Nirmala';
+    text-transform: uppercase;
+
+}
+.download-now p.thirty-four{
+	font-size: 34px;
+	color: #b9b9b9;
+	font-family: 'Nirmala';
+	margin-bottom: 60px;
+	line-height: 38px;
+}
+.download-now .app-links .fa-play, .download-now .app-links .fa-apple{
+	margin-top: 8px;
+	color:white;
+	padding:5px 6px 5px 8px;
+	border-radius: 50px;
+}
+.download-now .app-links .fa-play{
+	background-color: #21aec2;
+}
+.download-now .app-links .fa-apple{
+	background-color: #4caf50;
+}
+.download-now h4.nineteen{
+	font-size: 15px;
+	color:#999898;
+margin:0;
+}
+.download-now h3.twenty-three.non-bold{
+	font-size: 19px;
+	color:#999898;
+	font-weight: 300;
+	margin:0;
+}
+.app-links .app-buttons{
+    padding: 3px 0;
+    border-radius: 20px;
+}
+.app-links .android-app{
+	border:2px solid #4caf50;
+}
+.app-links .apple-app{
+	border:2px solid #21aec2;
+}
+.app-links{
+	padding-bottom: 30px;
+}
+.social-presence{
+	margin-top: 50px;
+}
+.social-presence .fa{
+	padding:15px;
+	border-radius: 50px;
+	color:white;
+	background-color: #999898;
+	margin:10px 0;
+}
+.social-presence .fa:hover{
+	background: #55c659;
+}
+.social-presence i:nth-child(4){
+	padding:11px 12px 11px 12px!important;
+}
+/*.social-presence i:nth-child(1){*/
+	/*color:#55c659;*/
+/*}*/
+.social-border{
+	border-bottom:1px solid #f8f8f8;
+	width: 188px;
+	display: block;
+	text-align: center;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>WHAT next start<<<<<<<<<<<<<<<<<<<<<<*/
+
+.what-next{
+	
+}
+.what-next .twenty-eight{
+	font-size: 28px;
+	color: #5a5a5a;
+	font-family: 'Nirmala';
+	margin-top: 50px;
+	text-transform: uppercase;
+	line-height: 33px;
+}
+
+.what-next img.next-top-img{
+	/*max-width: 600px;*/
+	margin:0 auto;
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+.what-next-content{
+	margin-bottom: 145px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>WHAT NEXT END<<<<<<<<<<<<<<<<<<<<<*/
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>SMILE CAR<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+section.smile-car{
+	/*background-image: url(../images/smile-car.jpg);*/
+	/*background-size: 100% 100%;*/
+	background:#55c659;
+	/*padding-top: 200px;*/
+	/*padding-bottom: 140px;*/
+	position: relative;
+}
+section.smile-car .smile_img img{
+	position: absolute;
+	top:-130px;
+	right: 25px;
+}
+.car_img img{
+	position: absolute;
+	bottom:0;
+	left:92px
+}
+section.smile-car .btn{
+	padding: 22px 53px;
+	background: #ffffff;
+	border-radius: 50px;
+	color: #55c659;
+	font-size: 36px;
+	margin-bottom: 126px;
+	font-family: 'Nirmala';
+	margin-top:60px;
+}
+.smile-car p{
+	font-family: 'Nirmala';
+	font-size:72px;
+	color: #ffffff;
+	margin-bottom: 130px;
+}
+footer{
+	padding: 70px 0;
+}
+footer p{
+	font-size: 28px;
+	color: #8a8a8a;
+	font-family: 'Nirmala';
+
+}
+
+/*<<<<<<<<<<<<<<<<<<<<SMILE CAR END.>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.andriod_section{
+	position: relative;
+}
+.andriod_img{
+	position: absolute;
+	top:270px;
+	left:150px;
+}

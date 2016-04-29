@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:1200px) {
+    .top-details .custom-free-app{
+        background: none;
+        color: white;
+        border: 1px solid #ffffff;
+    }
+    .app-arwda-mobile{
+        padding-top: 115px;
+    }
+    .left_detail{
+        border-right: 1px solid #acd373;
+    }
+    .app-arwda-mobile .badge-img{
+
+        margin-top: 70px;
+        margin-left: 100px;
+    }
+    .app-links .android-app{
+        margin-bottom: 70px;
+    }
+    .download-now p.thirty-four{
+        font-size: 25px;
+    }
+    .download-now h1.sixty-six{
+        margin-bottom: 65px;
+    }
+    .download-now h4.nineteen{
+        font-size: 27px;
+    }
+    .download-now h3.twenty-three.non-bold{
+        font-size: 36px;
+    }
+    .download-now .app-links .fa-play, .download-now .app-links .fa-apple{
+        font-size: 45px;
+    }
+    .responsive_btn{
+        text-align: center;
+        margin: 0 auto;
+    }
+    h2.eighty-five,h2.eighty-five-users{
+        font-size: 67px;
+    }
+}
+
+@media Screen and (max-width:992px){
+    .top-details .download-apps button{
+        margin-bottom: 10px;
+    }
+}
+@media Screen and (max-width:400px){
+}
+@media Screen and (max-width:630px){
+    section.smile-car .btn{
+        float: left;
+        width: 100%;
+    }
+}
+@media Screen and (max-width:767px){
+
+}
+@media Screen and (max-width:320px){
+
+}
+@media (max-width:921px) {
+    section.smile-car .btn{
+        margin-top: 160px;
+    }
+}
+
+@media (max-width:480px) {
+}
