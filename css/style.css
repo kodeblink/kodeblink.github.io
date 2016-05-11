@@ -128,7 +128,7 @@ h2.one34{
 .happy-users-text{
 	margin-bottom: 100px;
 }
-h2.eighty-five{
+.eighty-five{
 	font-size: 85px;
   	font-family: 'Nirmala';
   	background: #4caf50;
@@ -137,7 +137,7 @@ h2.eighty-five{
   	padding:35px;
   	display: inline;
 }
-h2.eighty-five-users{
+.eighty-five-users{
 	margin-left: 60px;
 	font-size: 85px;
   	font-family: 'Nirmala';
@@ -165,12 +165,13 @@ h3.twenty-four{
     margin-left: 12px;
     margin-bottom: 15px;
 }
-h3.twenty-three{
+.twenty-three{
 	font-size: 22.28px;
 	margin:0;
 	color:#696969;
 	font-weight: bold;
 	margin-bottom: 20px;
+	line-height: 1.1;
 }
 .twenty-three .fa-quote-left, .twenty-three .fa-quote-right{
 	font-size: 10px;
@@ -189,7 +190,7 @@ section.download-now img{
 	left:0;*/
 	max-width: 600px;
 }
-.download-now h1.sixty-six{
+.download-now .sixty-six{
 	    font-size: 54px;
     color: #55c659;
     margin-top: 250px;
@@ -269,7 +270,7 @@ margin:0;
 /*>>>>>>>>>>>>>>>>>>>>>>>>>WHAT next start<<<<<<<<<<<<<<<<<<<<<<*/
 
 .what-next{
-	
+
 }
 .what-next .twenty-eight{
 	font-size: 28px;
