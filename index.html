@@ -49,6 +49,25 @@
 <!--Script for google plus share-->
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 
+
+
+<!—-Script for redirecting to app stores if opened from mobile—>
+
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+<script>
+        $(document).ready(function (){
+         if(navigator.userAgent.toLowerCase().indexOf("android") > -1){
+             window.location.href = 'https://play.google.com/store/apps/details?id=com.kodeblink.trafficapp&amp;hl=en';
+         }
+         if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
+             window.location.href = 'href="https://itunes.apple.com/in/app/traffic-tickets/id437786046?mt=8';
+         }
+        });
+</script>
+
+
+
 <!--script for facebook share-->
 <div id="fb-root"></div>
 <!--facebook share -->
