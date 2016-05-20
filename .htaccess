@@ -1,0 +1,13 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+Redirect 301 /http://trafficbangalore.in/index.html /http://trafficbangalore.in/
+Redirect 301 /http://trafficbangalore.in/index /http://trafficbangalore.in/
+</IfModule>
+
+# END WordPress
+## LEVERAGE BROWSER CACHING ##
+<IfModule mod_security.c>
+SecFilterRemove 001838
+</IfModule>
