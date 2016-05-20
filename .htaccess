@@ -4,6 +4,7 @@ RewriteEngine On
 RewriteBase /
 Redirect 301 /http://trafficbangalore.in/index.html /http://trafficbangalore.in/
 Redirect 301 /http://trafficbangalore.in/index /http://trafficbangalore.in/
+ErrorDocument 404 /404.html
 </IfModule>
 
 # END WordPress
