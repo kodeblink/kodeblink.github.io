@@ -31,16 +31,17 @@ body{
 	height: 56px;
 	margin-top: -12px;
 }
-.top-green h1.thirty-six{
+.top-green h2.thirty-six{
 	display: inline;
 	color:white;
+	font-size: 36px;
 }
 /*Top Green bar END*/
 .top-details{
 	background-color: #f0b56e;
 	padding-top: 50px;
 }
-.top-details h1.fourty-eight{
+.top-details h2.fourty-eight{
 	font-size:48px;
 	font-weight: bold;
 	margin-top:0;
@@ -50,7 +51,7 @@ body{
 	/*border-bottom: 1px solid white;*/
 	/*left:50px;*/
 }
-.top-details h1.sixty{
+.top-details h2.sixty{
 	font-size:60px;
 	font-weight: bold;
 	text-transform: uppercase;
